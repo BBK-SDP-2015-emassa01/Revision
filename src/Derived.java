@@ -10,6 +10,7 @@
  */
 public class Derived extends Base {
 
+
     public void methodOne(int a) {
         super.methodOne();
         System.out.print("X");

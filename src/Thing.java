@@ -24,18 +24,18 @@ public class Thing extends Bases {
         if (YES) {
             anotherMethod(this);
         } else {
-            anotherMethod();
+            //anotherMethod();
         }
     }
 
     public void aMethod() {
         System.out.println("Thing::aMethod");
-        super.anotherMethod();
+        //super.anotherMethod();
         myMethod();
     }
 
     public void anotherMethod(Object o) {
         System.out.println("Thing::anotherMethod");
-        ((Base) o).anotherMethod();
+       // ((Base) o).anotherMethod();
     }
 }

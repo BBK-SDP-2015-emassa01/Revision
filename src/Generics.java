@@ -44,10 +44,10 @@ private List<P> array = null;
         System.out.println(s.substring(4-1));
         
         
-        List<T extends P> arrayList = Arrays.asList(array);
-        List myArrayList = arrayList; //WARNING may result in runtime downcast error?
-        ListIterator<T extends P> mylister = arrayList.listIterator();
-        
+//        List<T extends P> arrayList = Arrays.asList(array);
+//        List myArrayList = arrayList; //WARNING may result in runtime downcast error?
+//        ListIterator<T extends P> mylister = arrayList.listIterator();
+//        
     }
     
     
